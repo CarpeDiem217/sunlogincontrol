@@ -34,7 +34,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                artifact 'alipaysdk-noutdid-15.8.03.210428205839.aar' //设置artifact为上面定义的task
+                artifact 'libs/alipaysdk-noutdid-15.8.03.210428205839.aar' //设置artifact为上面定义的task
 
                 //建议和github地址对应，否则对jitpack无效
                 groupId = 'com.github.CarpeDiem217'
