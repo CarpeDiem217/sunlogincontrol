@@ -32,7 +32,6 @@ afterEvaluate {
         publications {
             //配置生成上传release节点的task
             release(MavenPublication) {
-                from components.release
 
                 artifact 'libs/alipaysdk-noutdid-15.8.03.210428205839.aar' //设置artifact为上面定义的task
 
