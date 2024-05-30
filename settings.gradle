@@ -17,3 +17,4 @@ dependencyResolutionManagement {
 rootProject.name = "SunloginControlSDK"
 include ':app'
 include ':controlsdk'
+include ':alipaysdk'
